@@ -99,11 +99,12 @@ header > div > div > div > a {
 
 #myDIV {
   position: fixed;
-  top: 10%;
+  top: 20%;
+  display: none;
   background-color: beige;
   margin: auto;
   border: 1px solid #e93956;
-  width: 90%;
+  width: 80%;
   height: auto;
   padding-top: 5%;
   padding-bottom: 10%;
