@@ -114,8 +114,8 @@ header > div > div > div > a {
   font-weight: 600;
 }
 
-button {
-  background-color: rgba(240, 248, 255, 0);
+header > div > div > button {
+  background-color: rgba(142, 188, 228, 0);
 }
 
 .header-ham-nav-div {

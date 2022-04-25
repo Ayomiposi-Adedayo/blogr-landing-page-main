@@ -18,14 +18,39 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <script>
-    function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+    
+//     function myFunction() {
+      
+//   var x = document.getElementById("myDIV");
+  
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
+
+
+// var content = document.getElementById("content");
+// var button = document.getElementById("show");
+
+// button.onclick = function(){
+
+
+// };
+
+var a;
+function myFunction(){
+    if(a==1){
+        document.getElementById("myDIV").style.display="none";
+        return a=0;
+    }
+    else {
+        document.getElementById("myDIV").style.display="block";
+        return a=1;
+    }
 }
+
   </script>
 
 
@@ -40,48 +65,52 @@
         
           
           
-            <img class="M-hamburger" src="images\icon-hamburger.svg" alt="icon-hamburger" onclick="myFunction()" >
+            <button type="button" onclick="myFunction()">
+              <img class="M-hamburger" src="images\icon-hamburger.svg" alt="icon-hamburger" >
+            </button>
             
 
             <div id="myDIV">
-    <div class="header-ham-nav-div">
+<div>
+      <div class="header-ham-nav-div">
+        <div>
+          <p>Product</p> 
+      </div>
       <div>
-        <p>Product</p> 
+        <img src="images/icon-arrow-dark.svg" alt="arrow">
     </div>
-    <div>
-      <img src="images/icon-arrow-dark.svg" alt="arrow">
-  </div>
-
-
-     </div>
-
-    <div  class="header-ham-nav-div">
+  
+  
+       </div>
+  
+      <div  class="header-ham-nav-div">
+        <div>
+        <p>Company</p> 
+      </div>
       <div>
-      <p>Company</p> 
+         <img src="images/icon-arrow-dark.svg" alt="arrow">
+      </div>
     </div>
-    <div>
-       <img src="images/icon-arrow-dark.svg" alt="arrow">
-    </div>
-  </div>
-
-    <div  class="header-ham-nav-div">
+  
+      <div  class="header-ham-nav-div">
+        <div>
+        <p>Connect</p> 
+      </div>
       <div>
-      <p>Connect</p> 
+        <img src="images/icon-arrow-dark.svg" alt="arrow">
+      </div>
     </div>
-    <div>
-      <img src="images/icon-arrow-dark.svg" alt="arrow">
-    </div>
-  </div>
-
-    <hr>
-
-    <div>
-      <p>Login</p>
-    </div>
-
-    <div type="button" class="nav-sign-up">
-      <a href=" ">Sign up</a> 
-    </div>
+  
+      <hr>
+  
+      <div>
+        <p>Login</p>
+      </div>
+  
+      <div type="button" class="nav-sign-up">
+        <a href=" ">Sign up</a> 
+      </div>
+</div>
          </div>
           
          
