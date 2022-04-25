@@ -1,8 +1,15 @@
  body {
     margin: 0%;
     padding: 0%;
-  
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    background-color: rgba(240, 154, 50, 0.549);
+    
 }
+$headings-grey-color: hsl(208, 49%, 24%);
+$body-grey-color: hsl(207, 13%, 34%); 
+
     
 header {
      background-image: linear-gradient(150deg, hsl(13, 100%, 72%),  hsl(353, 100%, 62%) );
@@ -10,10 +17,11 @@ header {
     height:  30rem;
      border: 0px solid red;
      border-bottom-left-radius: 6rem;
+     
+}
           
-    }
 
-.header-container {
+.M-header-container {
       width: 100%;
     height:  auto;
      border: 0px solid red;
@@ -23,23 +31,131 @@ header {
      background-position: 35% 32%;
      background-repeat: no-repeat;
      height: 100%;
-   
+}
      
+.M-header-flex {
+        padding: 15% 5% ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 18%;
+
+}
+.M-logo-size {
+     max-width: 70%;
+}
+
+.M-hamburger {
+     max-width: 90%;
+     
+}
+h1, header>div>p {
+padding: 1% 5%;
+text-align: center;
+}
+
+h1{
+     font-weight: 600;
+     margin-bottom: 0%;
+}
+header>div>p {
+     margin-top: 0%;
+}
+.M-button-flex {
+     display: flex;
+     gap: 5%;
+     justify-content: center;
+     margin-top: 10%;
+}
+
+.M-start-button, .M-learn-button {
+     border: 1px solid white;
+     width: 6rem;
+     padding: 2%;
+     border-radius: 1rem;
+     text-align: center;
+}
+.M-start-button {
+     background-color: white;
+     
+
+}
+header>div>div>div.M-start-button>a{
+     color: hsl(356, 100%, 66%)
+
+}
+header>div>div>div>a {
+     color:hsl(0, 0%, 100%);
+     text-decoration: none;
+    font-size: .9rem;
+    font-weight: 600;
 }
 
 
-// .header-container {
-//     height: 70%;
-//     background: {
-//     image: url(images/bg-pattern-intro-desktop.svg);
-//     size: 50px;
-   
-    
-//    }
-  
-// } 
-   
-   
+// #header-hamburger-nav {
+     
+     #myDIV {
+          position: fixed;
+          top: 10%;
+          
+     background-color: beige;
+     margin: auto;
+     border: 1px solid rgb(233, 57, 86);
+     width: 90%;
+     height: auto;
+     padding: {
+          top: 5%;
+          bottom: 10%;
+          left: auto;
+          right: auto;
+     }
+     color: $headings-grey-color;
+     font-weight: 600;
+     
+}
+
+button {
+     background-color: rgba(240, 248, 255, 0);
+
+
+}
+
+
+     
+
+.header-ham-nav-div {
+     display: flex;
+     gap: 3%;
+     width: 100%;
+     justify-content: center;
+}
+.header-ham-nav-div>div {
+     align-self: center;
+}
+.nav-sign-up {
+      border: 1px solid rgba(255, 255, 255, 0);
+     background-image: linear-gradient(150deg, hsl(13, 100%, 72%),  hsl(353, 100%, 62%) );
+     width: 6rem;
+     padding: 3%;
+     border-radius: 1rem;
+     text-align: center;
+     margin: auto;
+}
+div>div.nav-sign-up>a {
+     text-decoration: none;
+     color: white;
+}
+.ul-nav-background {
+     border: 1px solid red;
+     width: fit-content;
+     padding: 5% 20%;
+
+}
+
+
+
+ 
+
 
     
 
