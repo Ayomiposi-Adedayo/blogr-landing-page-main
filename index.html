@@ -17,42 +17,7 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-  <script>
-    
-//     function myFunction() {
-      
-//   var x = document.getElementById("myDIV");
   
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-// }
-
-
-// var content = document.getElementById("content");
-// var button = document.getElementById("show");
-
-// button.onclick = function(){
-
-
-// };
-
-
-var a;
-function myFunction(){
-    if(a==1){
-        document.getElementById("M-nav-ham").style.display="none";
-        return a=0;
-    }
-    else {
-        document.getElementById("M-nav-ham").style.display="block";
-        return a=1;
-    }
-}
-
-  </script>
 
 
 </head>
@@ -102,10 +67,10 @@ function myFunction(){
       </div>
     </div>
   
-      <hr>
+      <hr class="nav-hr">
   
       <div>
-        <p>Login</p>
+        <p style="text-align: center; font-size: 1.2rem;">Login</p>
       </div>
   
       <div type="button" class="nav-sign-up">
@@ -261,6 +226,25 @@ Product
     Coded by <a href="mailto:perscey007@gmail.com">perscey007@gmail.com</a>.
   </div>
 
+  <script>
+    var a;
+
+          function myFunction(){
+          if(a==1){
+          document.getElementById("M-nav-ham").style.display="none";
+
+      
+          return a=0;
+      }
+          else {
+          document.getElementById("M-nav-ham").style.display="block";
+
+        
+          return a=1;
+    }
+}
+
+  </script>
 </body>
 </html>     
 
