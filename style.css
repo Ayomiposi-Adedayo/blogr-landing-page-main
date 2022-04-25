@@ -99,7 +99,7 @@ header > div > div > div > a {
 
 #M-nav-ham {
   position: absolute;
-  top: 18%;
+  top: 15%;
   left: 5%;
   display: none;
   background-color: white;
@@ -129,7 +129,6 @@ header > div > div > button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 1.2rem;
 }
 
 .header-ham-nav-div > div {
