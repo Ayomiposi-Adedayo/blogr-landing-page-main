@@ -188,8 +188,136 @@ ul>div>p>a {
      color: $headings-grey-color;
      text-decoration: none;
      font-size: 1rem;
+}
+
+%h2-main {
+     color: $headings-grey-color;
+     font-size: 1.4rem;
+     text-align: center;
+     margin: 10% 0%;
+     line-height: 2.2rem;
+}
+%h2-p {
+     color: $body-grey-color;
+     line-height: 2rem;
+}
+
+     
+
+.h2-first {
+     @extend %h2-main;
+     margin-top: 20%;
+     margin-bottom: 0%;
+     
+}
+
+.wrapper-1 {
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto auto;
+     height: auto;
+     background-color: rgba(250, 235, 215, 0);
+     gap: 2%;
 
 }
+
+.item1 {
+     background-color: rgba(127, 255, 212, 0);
+     ;
+     grid-area: 1/1/ span 1/ span 1;
+     margin: 10% 0%;
+     margin-bottom: 2%;
+
+}
+
+main>div>div.item1>img {
+      max-width: 100%;
+      object-fit: cover;
+}
+
+.item2 {
+     background-color: rgba(127, 255, 212, 0);
+     grid-area: 2/1/ span 1/ span 1;
+    
+}
+.h2-main {
+     @extend %h2-main;
+       width: 80%;
+     text-align: center;
+     margin: auto;
+     margin-bottom: 5%
+
+   
+}
+.h2-p {
+     @extend %h2-p;
+     width: 80%;
+     text-align: center;
+     margin: auto;
+     margin-bottom: 5%;
+     
+}
+
+.wrapper-2, .wrapper-2-container  {
+     display: block;
+     margin-top: 40%;
+     border: 1px solid rgba(255, 0, 0, 0);
+    
+     border-top-right-radius: 8rem;
+     border-bottom-left-radius: 8rem;
+
+     background: linear-gradient(180deg,hsl(237,18%,21%) 0%, hsl(237,23%,32%) 80%);
+     
+     
+}
+main>div.wrapper-2>div>img {
+     max-width: 100%;
+     position: relative;
+     bottom: 8rem;
+}
+.wrapper-2-container {
+     margin-top: 0%;
+     height: auto;
+     background-image: url(images/bg-pattern-circles.svg);
+      background-position: -9em -16em;
+     background-repeat: no-repeat;
+     background-size: 46em;
+}
+
+.state {
+     display: block;
+     margin: auto;
+     margin-top: -40%;
+      background-color: rgba(0, 255, 255, 0);
+      width: 80%;
+
+}
+
+
+.h2-main2 {
+     @extend %h2-main;
+     color: white;
+     font-size: 2.2rem;
+     margin-bottom: 3%;
+     line-height: 3rem
+
+}
+.h2-p2 {
+     @extend %h2-p;
+     color: white;
+     text-align: center;
+     margin: auto;
+     margin-bottom: 30%;
+    
+    
+    
+
+}
+
+
+
+
+
      
 
 
