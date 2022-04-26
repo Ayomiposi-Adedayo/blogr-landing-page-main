@@ -160,7 +160,7 @@ div>div.nav-sign-up>a {
      border: 0px solid red;
      background-color: rgba(168, 168, 168, 0.159);
      width: fit-content;
-     padding: 5% 20%;
+     padding: 5% 25%;
      margin: auto;
 
 }
@@ -176,11 +176,19 @@ ul {
 }
 ul>li {
      list-style: none;
+     line-height: 2rem;
 }
 li>a {
      color: $headings-grey-color;
      text-decoration: none;
      font-size: .8rem;
+}
+ul>div>p>a {
+     
+     color: $headings-grey-color;
+     text-decoration: none;
+     font-size: 1rem;
+
 }
      
 
