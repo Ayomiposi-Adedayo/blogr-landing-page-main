@@ -4,7 +4,7 @@
     color: hsl(0, 0%, 100%);
     font-family: 'Overpass', sans-serif;
     font-size: 16px;
-    background-color: rgba(240, 154, 50, 0.549);
+    background-color: rgba(240, 154, 50, 0);
     
 }
 $headings-grey-color: hsl(208, 49%, 24%);
@@ -22,6 +22,9 @@ header {
           
 
 .M-header-container {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
       width: 100%;
     height:  auto;
      border: 0px solid red;
@@ -38,7 +41,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 18%;
+        padding-bottom: 15%;
 
 }
 .M-logo-size {
@@ -71,6 +74,7 @@ header>div>p {
 .M-start-button, .M-learn-button {
      border: 1px solid white;
      width: 6rem;
+     height: fit-content;
      padding: 2%;
      border-radius: 1rem;
      text-align: center;
@@ -111,9 +115,15 @@ header>div>div>div>a {
      }
      color: $headings-grey-color;
      font-weight: 600;
-     }
+     box-shadow: 0px 5px 7px 1px rgba(71,71,71,0.41);
+}
 
-       
+ul>li>div {
+     
+     display: block;
+   
+     margin: auto;
+}
      
 header>div>div>button {
      background-color: rgba(142, 188, 228, 0);
@@ -122,22 +132,23 @@ header>div>div>button {
 
 
 
-.header-ham-nav-div {
+.header-ham-nav-div{
      display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
      gap: 3%;
      width: 100%;
      justify-content: center;
+     align-items: center;
+}
      
-}
-.header-ham-nav-div>div {
-     align-self: center;
-}
+
 .nav-sign-up {
       border: 1px solid rgba(255, 255, 255, 0);
      background-image: linear-gradient(150deg, hsl(13, 100%, 72%),  hsl(353, 100%, 62%) );
      width: 6rem;
      padding: 3%;
-     border-radius: 1rem;
+     border-radius: 2rem;
      text-align: center;
      margin: auto;
 }
@@ -146,15 +157,32 @@ div>div.nav-sign-up>a {
      color: white;
 }
 .ul-nav-background {
-     border: 1px solid red;
+     border: 0px solid red;
+     background-color: rgba(168, 168, 168, 0.159);
      width: fit-content;
      padding: 5% 20%;
+     margin: auto;
 
 }
+#id-nav-background1, #id-nav-background2, #id-nav-background3 {
+     display: none;
+}
 .nav-hr {
-     border: 1px  solid rgba(0, 0, 0, 0.215);
+     border: 1px  solid rgba(0, 0, 0, 0.069);
      width: 80%;
 }
+ul {
+     padding-left: 0%;
+}
+ul>li {
+     list-style: none;
+}
+li>a {
+     color: $headings-grey-color;
+     text-decoration: none;
+     font-size: .8rem;
+}
+     
 
 
 

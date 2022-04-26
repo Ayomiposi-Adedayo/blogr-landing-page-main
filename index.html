@@ -19,7 +19,6 @@
   </style>
   
 
-
 </head>
 <body>
   <header>
@@ -37,56 +36,92 @@
             
 
             <div id="M-nav-ham">
-<div>
-      <div class="header-ham-nav-div">
-        <div>
-          <p>Product</p> 
-      </div>
-      <div>
-        <img src="images/icon-arrow-dark.svg" alt="arrow">
-    </div>
-  
-  
-       </div>
-  
-      <div  class="header-ham-nav-div">
-        <div>
-        <p>Company</p> 
-      </div>
-      <div>
-         <img src="images/icon-arrow-dark.svg" alt="arrow">
-      </div>
-    </div>
-  
-      <div  class="header-ham-nav-div">
-        <div>
-        <p>Connect</p> 
-      </div>
-      <div>
-        <img src="images/icon-arrow-dark.svg" alt="arrow">
-      </div>
-    </div>
-  
-      <hr class="nav-hr">
-  
-      <div>
+                  <div>
+  <ul>
+          <li>
+             <div>
+               <div onclick="myNav()" class="header-ham-nav-div" >
+                 <div>
+                    <p>Product</p> 
+                 </div>
+                 <div>
+                    <img src="images/icon-arrow-dark.svg" alt="arrow">
+                  </div>
+                </div>
+                <div id="id-nav-background1">
+                <ul class="ul-nav-background">
+                  <li><a href="">Overview</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Marketplace</a></li>
+                  <li><a href="">Features</a></li>
+                  <li><a href="">Integrations</a></li>
+                </ul>
+                </div>
+              </div>
+           </li>
+              
+          <li>
+             <div>
+               <div onclick="myNav2()" class="header-ham-nav-div">
+                 <div>
+                    <p>Company</p> 
+                 </div>
+                 <div>
+                    <img src="images/icon-arrow-dark.svg" alt="arrow">
+                  </div>
+                </div>
+                <div id="id-nav-background2">
+                  <ul class="ul-nav-background">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Careers</a></li>
+                  </ul>
+                </div>
+              </div>
+          </li>
+          
+          <li>
+             <div>
+               <div onclick="myNav3()" class="header-ham-nav-div">
+                 <div>
+                    <p>Connect</p> 
+                 </div>
+                 <div>
+                    <img src="images/icon-arrow-dark.svg" alt="arrow">
+                  </div>
+                </div>
+                 <div id="id-nav-background3">
+                <ul class="ul-nav-background">
+                  <li>
+                    <a href=" ">Contact</a>
+                  </li>
+                  <li>
+                    <a href=" ">Newsletter</a>
+                  </li>
+                  <li>
+                    <a href=" ">LinkedIn</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+          </li>
+          <hr class="nav-hr">
+          
+                  <div>
         <p style="text-align: center;">Login</p>
       </div>
-  
-      <div type="button" class="nav-sign-up">
+          </li>
+        </ul>
+         <div type="button" class="nav-sign-up">
         <a href=" ">Sign up</a> 
       </div>
-</div>
-         </div>
-          
-         
+                  </div>
+              </div>
 
-        
-        
-    </div>
-
-    
-
+            </div>
+  
+      
         <h1>
        A modern <br> publishing platform 
     </h1>
@@ -102,32 +137,12 @@
   </header>
 
  
-  <div>
-    <ul class="ul-nav-background">
-      <li><a href="">Overview</a></li>
-      <li><a href="">Pricing</a></li>
-      <li><a href="">Marketplace</a></li>
-      <li><a href="">Features</a></li>
-      <li><a href="">Integrations</a></li>
-    </ul>
-  </div>
+  
 
-  <div>
-    <ul class="ul-nav-background">
-      <li><a href="">About</a></li>
-      <li><a href="">Team</a></li>
-      <li><a href="">Blog</a></li>
-      <li><a href="">Careers</a></li>
-    </ul>
-  </div>
+  
 
-  <div>
-    <ul class="ul-nav-background">
-      <li><a href=" ">Contact</a></li>
-      <li><a href=" ">Newsletter</a></li>
-      <li><a href=" ">LinkedIn</a></li>
-    </ul>
-  </div>
+  
+ 
       
         
         
@@ -226,6 +241,8 @@ Product
     Coded by <a href="mailto:perscey007@gmail.com">perscey007@gmail.com</a>.
   </div>
 
+
+  
   <script>
     var a;
 
@@ -244,7 +261,63 @@ Product
     }
 }
 
+  var a1;
+
+          function myNav(){
+          if(a1==1){
+          document.getElementById("id-nav-background1").style.display="none";
+
+      
+          return a1=0;
+      }
+          else {
+          document.getElementById("id-nav-background1").style.display="block";
+
+        
+          return a1=1;
+    }
+}
+
+
+  var a2;
+
+          function myNav2(){
+          if(a2==1){
+          document.getElementById("id-nav-background2").style.display="none";
+
+      
+          return a2=0;
+      }
+          else {
+          document.getElementById("id-nav-background2").style.display="block";
+
+        
+          return a2=1;
+    }
+}
+
+
+  var a3;
+
+          function myNav3(){
+          if(a3==1){
+          document.getElementById("id-nav-background3").style.display="none";
+
+      
+          return a3=0;
+      }
+          else {
+          document.getElementById("id-nav-background3").style.display="block";
+
+        
+          return a3=1;
+    }
+}
+
+
+
   </script>
+  
 </body>
 </html>     
 
