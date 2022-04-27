@@ -60,12 +60,12 @@ h1, header>div>div>p {
 padding: 1% 5%;
 text-align: center;
 margin: auto;
-margin-top: 1%;
+margin-top: 2%;
 
 }
 
 header>div>div>p {
-     max-width: 70%;
+     max-width: 65%;
      margin-top: 2%;
 }
 
@@ -230,7 +230,7 @@ ul>div>p>a {
      grid-template-rows: auto auto;
      height: auto;
      background-color: rgba(250, 235, 215, 0);
-     gap: 2%;
+     gap: 0%;
 
 }
 
@@ -259,7 +259,8 @@ main>div>div.item1>img {
        width: 80%;
      text-align: center;
      margin: auto;
-     margin-bottom: 5%
+     margin-bottom: 5%;
+     margin-top: 7%
 
    
 }
@@ -433,7 +434,7 @@ div.footer-wrapper>div>ul>li {
 }
 
 @media screen and (min-width: 320px ) and (max-width:499px) {
-.header-flex-hide-Mobile {
+.hide-for-Mobile {
      display: none;
 }
 }
@@ -444,7 +445,7 @@ div.footer-wrapper>div>ul>li {
 header {
      background-image: linear-gradient(60deg, hsl(13, 100%, 72%),  hsl(353, 100%, 62%) );
      width: 100%;
-    height:  30rem;
+    height:  auto;
      border: 0px solid red;
      border-bottom-left-radius: 6rem;
      
@@ -466,8 +467,18 @@ header {
      height: 100%;
 }
  
-.header-flex-hide-pc {
+.hide-for-pc {
      display: none;
+}
+
+.P-header-flex {
+     background-color: rgba(0, 255, 255, 0);
+     display: grid;
+     grid-template-rows: auto auto auto;
+     grid-template-columns: auto;
+     height: 100px;
+      padding: 15% 5% ;
+
 }
 
    
