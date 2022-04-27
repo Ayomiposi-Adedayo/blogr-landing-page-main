@@ -7,6 +7,7 @@
     background-color: rgba(240, 154, 50, 0);
     
 }
+
 $headings-grey-color: hsl(208, 49%, 24%);
 $body-grey-color: hsl(207, 13%, 34%); 
 
@@ -14,9 +15,10 @@ $body-grey-color: hsl(207, 13%, 34%);
 header {
      background-image: linear-gradient(150deg, hsl(13, 100%, 72%),  hsl(353, 100%, 62%) );
      width: 100%;
-    height:  30rem;
+    height:  auto;
      border: 0px solid red;
      border-bottom-left-radius: 6rem;
+   
      
 }
           
@@ -34,6 +36,8 @@ header {
      background-position: 35% 32%;
      background-repeat: no-repeat;
      height: 100%;
+     
+     
 }
      
 .M-header-flex {
@@ -52,23 +56,31 @@ header {
      max-width: 90%;
      
 }
-h1, header>div>p {
+h1, header>div>div>p {
 padding: 1% 5%;
 text-align: center;
+margin: auto;
+margin-top: 1%;
+
 }
+
+header>div>div>p {
+     max-width: 70%;
+     margin-top: 2%;
+}
+
 
 h1{
      font-weight: 600;
      margin-bottom: 0%;
 }
-header>div>p {
-     margin-top: 0%;
-}
+
 .M-button-flex {
      display: flex;
      gap: 5%;
      justify-content: center;
      margin-top: 10%;
+     padding-bottom: 25%;
 }
 
 .M-start-button, .M-learn-button {
@@ -419,7 +431,64 @@ div.footer-wrapper>div>ul>li {
      text-align: center;
     
 }
+
+@media screen and (min-width: 320px ) and (max-width:499px) {
+.header-flex-hide-Mobile {
+     display: none;
+}
+}
+
+@media screen and (min-width: 500px )  {
+    
+        
+header {
+     background-image: linear-gradient(60deg, hsl(13, 100%, 72%),  hsl(353, 100%, 62%) );
+     width: 100%;
+    height:  30rem;
+     border: 0px solid red;
+     border-bottom-left-radius: 6rem;
      
+}
+          
+
+.M-header-container {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+      width: 100%;
+    height:  auto;
+     border: 0px solid red;
+     border-bottom-left-radius: 6rem;
+     background-image: url(images/bg-pattern-intro-desktop.svg);
+     background-size: 170rem;
+     background-position: 25% 52%;
+     background-repeat: no-repeat;
+     height: 100%;
+}
+ 
+.header-flex-hide-pc {
+     display: none;
+}
+
+   
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+}
 
 
     
