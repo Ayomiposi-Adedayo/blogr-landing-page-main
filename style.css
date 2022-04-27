@@ -449,7 +449,7 @@ div.footer-wrapper > div > ul > li {
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   header {
     background-image: linear-gradient(60deg, #ff8f70, #ff3d54);
     width: 100%;
