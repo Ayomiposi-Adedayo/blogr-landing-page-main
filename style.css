@@ -90,11 +90,12 @@ header > div > p {
   height: -moz-fit-content;
   height: fit-content;
   padding: 2%;
-  border-radius: 1rem;
+  border-radius: 2rem;
   text-align: center;
 }
 
 .M-start-button {
+  border: opx solid red;
   background-color: white;
 }
 
@@ -331,5 +332,10 @@ main > div.wrapper-2 > div > img {
   margin-bottom: 30%;
   line-height: 2rem;
   font-size: 1.1rem;
+}
+
+.footer {
+  border: 1px solid red;
+  height: 300px;
 }
 /*# sourceMappingURL=style.css.map */
