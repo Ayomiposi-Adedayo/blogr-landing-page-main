@@ -7,6 +7,9 @@
     background-color: rgba(240, 154, 50, 0);
     
 }
+.hide-for-Mobile {
+     display: none;
+}
 
 $headings-grey-color: hsl(208, 49%, 24%);
 $body-grey-color: hsl(207, 13%, 34%); 
@@ -478,7 +481,7 @@ header {
      grid-template-columns: auto;
      height: 100px;
       padding: 15% 5% ;
-      
+
 
 }
 
