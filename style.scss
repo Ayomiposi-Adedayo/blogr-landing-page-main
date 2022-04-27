@@ -315,10 +315,67 @@ main>div.wrapper-2>div>img {
     
 }
 
-.footer {
-     border: 1px solid red;
-     height: 300px;
+.footer, .footer-wrapper {
+     margin-top: 15%;
+     background-color: hsl(240, 10%, 16%);
+     color: hsl(240, 2%, 79%);
+     border: 0px solid red;
+     height: auto;
+     border-top-right-radius: 7rem;
+     
 }
+.footer-wrapper {
+     display: grid;
+     
+     justify-content: center;
+     grid-template-rows: auto auto auto auto;
+     grid-template-columns: auto;
+    
+}
+.footer-item-1 {
+     grid-area: 1/1/ span 1/span 1;
+     padding-top: 70%; 
+     padding-bottom: 30%;
+     margin: auto;
+}
+
+div.footer-wrapper>div>div>img {
+     max-width: 100%;
+}
+     
+
+.footer-logo {
+     background-color: rgba(0, 255, 255, 0);
+}
+
+
+.footer-item-2 {
+     grid-area: 2/1/ span 1/span 1;
+}
+
+.footer-item-3 {
+     grid-area: 3/1/ span 1/span 1;
+}
+
+
+.footer-item-4 {
+     grid-area: 4/1/ span 1/span 1;
+}
+h3 {
+     text-align: center;
+     font-size: 1.1rem;
+}
+
+div.footer-wrapper>div>ul>li>a {
+     color: hsl(240, 2%, 79%);
+}
+div.footer-wrapper>div>ul>li {
+     line-height: 1.7rem;
+     text-align: center;
+}
+     
+
+
     
 
 
