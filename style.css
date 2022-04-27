@@ -251,7 +251,7 @@ ul > div > p > a {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1/1/ span 1/ span 1;
-  margin: 10% 0%;
+  margin: 10% auto;
   margin-bottom: 2%;
 }
 
