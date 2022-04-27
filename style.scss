@@ -251,13 +251,16 @@ main>div>div.item1>img {
 
    
 }
-.h2-p {
+.h2-p, .h2-p-down {
      @extend %h2-p;
      width: 80%;
      text-align: center;
      margin: auto;
      margin-bottom: 5%;
      
+}
+.h2-p-down {
+     margin-bottom: 12%;
 }
 
 .wrapper-2, .wrapper-2-container  {
@@ -272,11 +275,27 @@ main>div>div.item1>img {
      
      
 }
+
+// media - query start
+
 main>div.wrapper-2>div>img {
      max-width: 100%;
      position: relative;
-     bottom: 8rem;
+     bottom: 10rem;
 }
+
+@media screen and (max-width: 420px) {
+     
+main>div.wrapper-2>div>img {
+     max-width: 100%;
+     position: relative;
+     bottom: 7rem;
+}
+     
+}
+
+// media - query end
+
 .wrapper-2-container {
      margin-top: 0%;
      height: auto;
@@ -286,14 +305,17 @@ main>div.wrapper-2>div>img {
      background-size: 46em;
 }
 
+
 .state {
      display: block;
      margin: auto;
-     margin-top: -40%;
+     margin-top: -45%;
       background-color: rgba(0, 255, 255, 0);
       width: 80%;
-
 }
+
+
+
 
 
 .h2-main2 {
@@ -304,6 +326,7 @@ main>div.wrapper-2>div>img {
      line-height: 3rem
 
 }
+
 .h2-p2 {
      @extend %h2-p;
      color: white;
@@ -315,8 +338,27 @@ main>div.wrapper-2>div>img {
     
 }
 
+// media - query start
+
+@media screen and (max-width: 420px) {
+     
+.h2-p2 {
+     color: white;
+     text-align: center;
+     margin: auto;
+     margin-bottom: 40%;
+     line-height: 2rem;
+     font-size: 1.1rem;
+    
+}
+
+}
+
+// media - query end
+
+
 .footer, .footer-wrapper {
-     margin-top: 15%;
+     margin-top: 20%;
      background-color: hsl(240, 10%, 16%);
      color: hsl(240, 2%, 79%);
      border: 0px solid red;
@@ -360,6 +402,7 @@ div.footer-wrapper>div>div>img {
 
 .footer-item-4 {
      grid-area: 4/1/ span 1/span 1;
+     padding-bottom: 30%;
 }
 h3 {
      text-align: center;
