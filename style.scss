@@ -635,14 +635,14 @@ a.P-sign-button {
      display: block;
       border: 1px solid white;
      width: 5rem;
-     padding: 4%;
+     padding: 3% 4%;
      border-radius: 2rem;
      text-align: center;
      flex-shrink: 0;
      border: opx solid red;
      background-color: white;
       margin-left: 8%;
-       color: hsl(356, 100%, 66%);
+     color: hsl(356, 100%, 66%);
      text-decoration: none;
      font-weight: 600;
      
@@ -659,70 +659,50 @@ a.P-sign-button:hover {
 
     
     
-.P-start-button {
+a.P-start-button {
      display: block;
       border: 1px solid white;
-     width: 6rem;
-     padding: 3%;
+     width: 7rem;
+     padding: 1% 2%;
+     
      border-radius: 2rem;
      text-align: center;
-
-     width: 8rem;
-     padding: 1%;
-      background-color: white;
-     
-}
-.P-start-button:hover {
-     background-color: rgba(255, 255, 255, 0.368);
-      border: 0px solid red;
-}
-   
-
-div.P-start-button>a {
-      color: hsl(356, 100%, 66%);
+     background-color: white;
+     color: hsl(356, 100%, 66%);
      text-decoration: none;
     font-weight: 600;
     height: fit-content;
-   
-   
+      
 }
-div.P-start-button>a:hover {
-     color: white;
+
+a.P-start-button:hover {
+     background-color: rgba(255, 255, 255, 0.368);
+      border: 0px solid red;
+      color: white;
 }
-     
 
 
 .P-learn-button {
      display: block;
       border: 1px solid white;
-     width: 6rem;
-     padding: 3%;
      border-radius: 2rem;
      text-align: center;
-
-     width: 8rem;
-     padding: 1%;
-     
+     width: 7rem;
+     padding: 1% 2%;
+     color: white;
+     text-decoration: none;
+     font-weight: 600;
+     height: fit-content;
 }
+     
 .P-learn-button:hover {
      background-color: white;
-}
-   
-
-
-div.P-learn-button>a {
-   color: white;
-   text-decoration: none;
-   font-weight: 600;
-   height: fit-content;
-   
-     
-}
-div.P-learn-button>a:hover {
      color: hsl(356, 100%, 66%);
       border: 0px solid red;
+
 }
-     
+   
+
 
 
 
