@@ -131,9 +131,9 @@
               </div>
                
              <ul class="nav-ul-flex">
-               <li class="nav-ul-grid-1">Product <img src="images\icon-arrow-light.svg" alt="">
+               <li class="nav-ul-grid-1"><div id="product" type="button tabindex=0" onclick="myNavPc1()">Product </div><img src="images\icon-arrow-light.svg" alt="">
                 <div>
-                    <ul class="nav-dropdown">
+                    <ul id="nav-dropdown1">
                         <li>
                           <a href="">Overview</a>
                         </li>
@@ -151,9 +151,11 @@
                     </div> 
 
               </li>
-               <li class="nav-ul-grid-2">Company<img src="images\icon-arrow-light.svg" alt="">
+               <li class="nav-ul-grid-2">
+                 <div id="company" type="button tabindex=0" onclick="myNavPc2()">Company</div>
+                 <img src="images\icon-arrow-light.svg" alt="">
                 <div>
-                    <ul class="nav-dropdown">
+                    <ul id="nav-dropdown2">
                         <li>
                           <a href="">About</a>
                         </li>
@@ -169,9 +171,9 @@
                     </div> 
 
               </li>
-               <li class="nav-ul-grid-3">Connect<img src="images\icon-arrow-light.svg" alt="">
+               <li class="nav-ul-grid-3"><div id="connect" type="button tabindex=0" onclick="myNavPc3()">Connect</div><img src="images\icon-arrow-light.svg" alt="">
                 <div>
-                    <ul class="nav-dropdown">
+                    <ul id="nav-dropdown3">
                         <li>
                           <a href="">Contact</a>
                         </li>
@@ -667,6 +669,58 @@
 
 
 
+  var n1;
+
+          function myNavPc1(){
+          if(n1==1){
+          document.getElementById("nav-dropdown1").style.display="none";
+
+      
+          return n1=0;
+      }
+          else {
+          document.getElementById("nav-dropdown1").style.display="block";
+
+        
+          return n1=1;
+    }
+}
+
+
+  var n2;
+
+          function myNavPc2(){
+          if(n2==1){
+          document.getElementById("nav-dropdown2").style.display="none";
+
+      
+          return n2=0;
+      }
+          else {
+          document.getElementById("nav-dropdown2").style.display="block";
+
+        
+          return n2=1;
+    }
+}
+
+
+  var n3;
+
+          function myNavPc3(){
+          if(n3==1){
+          document.getElementById("nav-dropdown3").style.display="none";
+
+      
+          return n3=0;
+      }
+          else {
+          document.getElementById("nav-dropdown3").style.display="block";
+
+        
+          return n3=1;
+    }
+}
 
   </script>
   

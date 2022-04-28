@@ -513,6 +513,20 @@ header {
      padding: 1% 0%;
     
 }
+
+#product {
+     display: inline;
+}
+
+
+#company {
+     display: inline;
+}
+
+
+#connect {
+     display: inline;
+}
      
 
  div.nav-list>div>div>a>img {
@@ -530,7 +544,7 @@ li.nav-ul-grid-3>img {
     margin-left: 5%;
 }
 
-.nav-dropdown {
+#nav-dropdown1, #nav-dropdown2, #nav-dropdown3 {
      width: 12%;
      position: absolute;
       display: none;
@@ -549,7 +563,7 @@ ul>li.nav-ul-grid-2:hover, ul>li.nav-ul-grid-3:hover {
      cursor: pointer;
 }
 
-ul>li.nav-ul-grid-1:hover .nav-dropdown, ul>li.nav-ul-grid-2:hover .nav-dropdown, ul>li.nav-ul-grid-3:hover .nav-dropdown {
+ul>li.nav-ul-grid-1:hover #nav-dropdown1, ul>li.nav-ul-grid-2:hover #nav-dropdown2, ul>li.nav-ul-grid-3:hover #nav-dropdown3 {
      display: block;
 }
      
@@ -931,9 +945,6 @@ div.footer-wrapper-pc>a>img {
 }
      
 
-// .footer-logo {
-//      background-color: rgba(0, 255, 255, 0);
-// }
 
 
 .footer-item-2-pc {
@@ -980,7 +991,7 @@ div.footer-wrapper-pc>div>ul>li>a:hover {
 
 
 
-
+// MEDIA QUERY FOR TABLET
 
 
 
