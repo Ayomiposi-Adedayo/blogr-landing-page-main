@@ -588,6 +588,7 @@ ul>li.nav-ul-grid-1:hover #nav-dropdown1, ul>li.nav-ul-grid-2:hover #nav-dropdow
      grid-template-columns: auto auto auto;     
      gap: 1%;
      align-items: center;
+     font-size: 1.2rem;
     
 }
 
@@ -713,6 +714,8 @@ div.P-learn-button>a:hover {
 div.start-button-flex>a {
      color: white;
      text-decoration: none;
+     font-size: 1.1rem;
+     margin-left: -10%;
 }
 div.start-button-flex>a:hover {
      text-decoration: underline;
@@ -734,11 +737,17 @@ header>div>div>div>div.start-button-flex>div>a:hover {
      width: fit-content;
      padding: 5% 20%;
      margin: auto;
+     
 
 }
+div>ul>li>a {
+    font-size: .9rem;
+}
+
 div>ul>li>a:hover {
      color: hsl(207, 13%, 34%);
      font-weight: 600;
+     
 }
 
 .h1-p  {

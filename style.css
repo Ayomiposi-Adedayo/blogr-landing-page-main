@@ -582,6 +582,7 @@ div.footer-wrapper > div > ul > li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 1.2rem;
   }
   .nav-ul-grid-1 {
     -ms-grid-row: 1;
@@ -696,6 +697,8 @@ div.footer-wrapper > div > ul > li {
   div.start-button-flex > a {
     color: white;
     text-decoration: none;
+    font-size: 1.1rem;
+    margin-left: -10%;
   }
   div.start-button-flex > a:hover {
     text-decoration: underline;
@@ -716,6 +719,9 @@ div.footer-wrapper > div > ul > li {
     width: fit-content;
     padding: 5% 20%;
     margin: auto;
+  }
+  div > ul > li > a {
+    font-size: .9rem;
   }
   div > ul > li > a:hover {
     color: #4b5862;
