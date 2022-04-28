@@ -620,32 +620,53 @@ ul>li.nav-ul-grid-1:hover #nav-dropdown1, ul>li.nav-ul-grid-2:hover #nav-dropdow
      
 }
 
-.P-start-button, .P-learn-button, .P-sign-button {
-     border: 1px solid white;
-     width: 6rem;
+a.P-login {
+     text-decoration: none;
+     font-size: 1.2rem;
+     color: white;
+}
+
+a.P-login:hover {
+     text-decoration: underline;
+}
+
+
+a.P-sign-button {
+     display: block;
+      border: 1px solid white;
+     width: 5rem;
+     padding: 4%;
+     border-radius: 2rem;
+     text-align: center;
+     flex-shrink: 0;
+     border: opx solid red;
+     background-color: white;
+      margin-left: 8%;
+       color: hsl(356, 100%, 66%);
+     text-decoration: none;
+     font-weight: 600;
      
+}
+a.P-sign-button:hover {
+       border: 1px solid rgba(255, 255, 255, 0);
+      background-color: rgba(255, 255, 255, 0.368);
+    width: 5rem;
+    color: white;
+
+
+}
+
+
+    
+    
+.P-start-button {
+     display: block;
+      border: 1px solid white;
+     width: 6rem;
      padding: 3%;
      border-radius: 2rem;
      text-align: center;
-}
-.P-sign-button {
-     border: opx solid red;
-     background-color: white;
-      margin-left: 7%;
-       color: hsl(356, 100%, 66%);
-     text-decoration: none;
-     
-}
 
-.P-sign-button:hover {
-     border: 1px solid rgba(255, 255, 255, 0);
-     background-color: rgba(255, 255, 255, 0.368);
-     width: 6rem;
-     color: white;
-    
-    
-}
-.P-start-button {
      width: 8rem;
      padding: 1%;
       background-color: white;
@@ -672,6 +693,13 @@ div.P-start-button>a:hover {
 
 
 .P-learn-button {
+     display: block;
+      border: 1px solid white;
+     width: 6rem;
+     padding: 3%;
+     border-radius: 2rem;
+     text-align: center;
+
      width: 8rem;
      padding: 1%;
      
@@ -711,15 +739,16 @@ div.P-learn-button>a:hover {
      
 
 
-div.start-button-flex>a {
-     color: white;
-     text-decoration: none;
-     font-size: 1.1rem;
-     margin-left: -10%;
-}
-div.start-button-flex>a:hover {
-     text-decoration: underline;
-}
+// div.start-button-flex>a {
+//      color: white;
+//      text-decoration: none;
+//      font-size: 1.1rem;
+//      margin-left: -10%;
+// }
+// div.start-button-flex>a:hover {
+//      text-decoration: underline;
+// }
+
 
 header>div>div>div>div.start-button-flex>div>a{
      color: hsl(356, 100%, 66%);

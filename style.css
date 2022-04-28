@@ -622,27 +622,42 @@ div.footer-wrapper > div > ul > li {
             align-items: center;
     margin-left: 60%;
   }
-  .P-start-button, .P-learn-button, .P-sign-button {
+  a.P-login {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+  }
+  a.P-login:hover {
+    text-decoration: underline;
+  }
+  a.P-sign-button {
+    display: block;
+    border: 1px solid white;
+    width: 5rem;
+    padding: 4%;
+    border-radius: 2rem;
+    text-align: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border: opx solid red;
+    background-color: white;
+    margin-left: 8%;
+    color: #ff525d;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.P-sign-button:hover {
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.368);
+    width: 5rem;
+    color: white;
+  }
+  .P-start-button {
     border: 1px solid white;
     width: 6rem;
     padding: 3%;
     border-radius: 2rem;
     text-align: center;
-  }
-  .P-sign-button {
-    border: opx solid red;
-    background-color: white;
-    margin-left: 7%;
-    color: #ff525d;
-    text-decoration: none;
-  }
-  .P-sign-button:hover {
-    border: 1px solid rgba(255, 255, 255, 0);
-    background-color: rgba(255, 255, 255, 0.368);
-    width: 6rem;
-    color: white;
-  }
-  .P-start-button {
     width: 8rem;
     padding: 1%;
     background-color: white;
@@ -663,6 +678,11 @@ div.footer-wrapper > div > ul > li {
     color: white;
   }
   .P-learn-button {
+    border: 1px solid white;
+    width: 6rem;
+    padding: 3%;
+    border-radius: 2rem;
+    text-align: center;
     width: 8rem;
     padding: 1%;
   }
@@ -693,15 +713,6 @@ div.footer-wrapper > div > ul > li {
     margin: auto;
     margin-top: 4%;
     padding-bottom: 7%;
-  }
-  div.start-button-flex > a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    margin-left: -10%;
-  }
-  div.start-button-flex > a:hover {
-    text-decoration: underline;
   }
   header > div > div > div > div.start-button-flex > div > a {
     color: #ff525d;
