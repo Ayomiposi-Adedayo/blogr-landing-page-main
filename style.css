@@ -717,7 +717,7 @@ div.footer-wrapper > div > ul > li {
     padding: 5% 20%;
     margin: auto;
   }
-  div > ul.nav-dropdown > li > a:hover {
+  div > ul > li > a:hover {
     color: #4b5862;
     font-weight: 600;
   }
