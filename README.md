@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://blogr-by-perscey007.netlify.app/)
+- Solution URL: [https://blogr-by-perscey007.netlify.app/](https://blogr-by-perscey007.netlify.app/)
 - Live Site URL: [Add live site URL here](https://github.com/perscey007/blogr-landing-page-main)
 
 ## My process
