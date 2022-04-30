@@ -14,7 +14,6 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
   - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -37,6 +36,7 @@ Users should be able to:
 - Live Site URL: [Live site](https://blogr-by-perscey007.netlify.app/)
 
 ## My process
+I started with mobile first approach before making the desktop website. i implemented scss and added a little bit of javascript. It was all pure css and html.
 
 ### Built with
 
@@ -47,8 +47,6 @@ Users should be able to:
 - Mobile-first workflow
 - SCSS
 - Vanilla javascript
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 I learned about scss and the uses of variables, nesting and the fleibility of scss. I also got more familiar with the <b>mobile-first<b> approach.
