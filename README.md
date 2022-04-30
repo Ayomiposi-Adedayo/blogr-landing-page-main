@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/perscey007/blogr-landing-page-main/blob/main/design/desktop-preview.jpg)
 
 
 
