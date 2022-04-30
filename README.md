@@ -56,16 +56,10 @@ I learned about scss and the uses of variables, nesting and the fleibility of sc
 <!-- 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
  -->
-  
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/perscey007)
-- Twitter - [@yourusername](https://www.twitter.com/percyadedayo)
+- Frontend Mentor - [@perscey007](https://www.frontendmentor.io/profile/perscey007)
+- Twitter - [@percyadedayo](https://www.twitter.com/percyadedayo)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
